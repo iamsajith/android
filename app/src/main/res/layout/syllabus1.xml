@@ -1,0 +1,44 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="12dp"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:text="Science"
+		android:textSize="25sp"
+		android:textStyle="bold"
+		android:textColor="#9C27B0"
+		android:layout_weight="1"/>
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="12dp"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:text="Commerce"
+		android:textSize="25sp"
+		android:textStyle="bold"
+		android:textColor="#9C27B0"
+		android:layout_weight="1"/>
+	<Button
+		android:id="@+id/button3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="12dp"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:text="Other Streams"
+		android:textSize="25sp"
+		android:textStyle="bold"
+		android:textColor="#9C27B0"
+		android:layout_weight="1"/>
+</LinearLayout>
